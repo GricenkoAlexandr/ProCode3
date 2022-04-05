@@ -1,0 +1,48 @@
+
+article {
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+
+}
+
+.autor {
+  font-size: 12px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.subscribe {
+  background-color:#d3d6d8;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 12px;
+}
+
+.photocat {
+  position: relative;
+}
+
+.photocat img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.posittext {
+  position: absolute;
+  left: 0;
+  top: 94%;
+  background-color:rgba(0, 0, 0, 0.2);
+  padding: 4px;
+}
+
+.aftertext {
+  font-weight: 700;
+}
+
+ul li {
+  margin: 15px 0;
+}
