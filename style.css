@@ -1,0 +1,25 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.generalblock {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  min-width: 100px;
+  gap: 10px;
+  background-color:#f30000;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+
+.innerblock {
+  width: 450px;
+  background-color:#0000ff;
+  border-radius: 5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

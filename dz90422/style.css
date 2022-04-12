@@ -1,0 +1,30 @@
+body {
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+}
+
+.genblock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.secondblock {
+  display: flex;
+  border: 2px solid #0400ff;
+}
+
+.secondblock img {
+  width: 80px;
+}
+
+.text {
+  width: 100%;
+  line-height: 80px;
+  text-align: center;
+  color: crimson;
+  font-weight: 900;
+}
