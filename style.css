@@ -23,3 +23,31 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.out {
+  width: 100px;
+  height: 100px;
+  background-color:#f30000;
+  color:#0000ff;
+  animation: anima 5s infinite;
+}
+
+@keyframes anima {
+  0% {
+    width: 100px;
+    background-color:#f3ef00;
+    color:#0000ff;
+  }
+
+  50% {
+    width: 300px;
+    background-color:#4df300;
+    color:#eff300;
+  }
+
+  100% {
+    width: 100px;
+    background-color:#f3ef00;
+    color:#00ffb3;
+  }
+}
